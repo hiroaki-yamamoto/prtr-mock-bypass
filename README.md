@@ -16,7 +16,7 @@ angular.module("test", ["ngRoute", "test.resource"]).config([
   }
 ]);
 ```
-2. Make route that path is "/"
-3. Make protractor spec file.
+2. Create route that path is "/"
+3. Create protractor spec file.
 
 For details, please check ["Source Code"](src) and ["Test"](test).
