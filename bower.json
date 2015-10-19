@@ -1,0 +1,27 @@
+{
+  "name": "prtr-mock-bypass",
+  "description": "An evidence that ngMockE2E doesn't mock backend resource",
+  "main": "",
+  "authors": [
+    "Hiroaki Yamamoto <hiroaki@hysoftware.net>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "protractor"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/third_party",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-route": "~1.4.7"
+  }
+}
