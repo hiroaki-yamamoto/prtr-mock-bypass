@@ -12,9 +12,10 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
+      - libnotify-bin
 env:
   matrix:
-    - "DISABLE_NOTIFIER=true DISPLAY=:99.0 CXX=g++-4.8"
+    - "DISPLAY=:99.0 CXX=g++-4.8"
 
 before_script:
   - "sh -e /etc/init.d/xvfb start"
