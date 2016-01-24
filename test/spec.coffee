@@ -15,10 +15,12 @@ describe "Protractor mock bypass test", ->
               "text": "Passed"
             )
         ]
-    describe "Then, accessing /#/", ->
+    describe "First, access to /#/", ->
       before ->
         browser.get "/#/"
-      describe "Clicking the button", ->
+      it "The address should be redirected to '/'", ->
+        expect(browser.getCurrentUrl()).not.eventually.match /\/#\/$/
+      describe "Then, clicking the button", ->
         before ->
           element(By.buttonText "Click").click()
         it "{{test.text}} should be \"Passed\"", ->
