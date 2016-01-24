@@ -1,4 +1,5 @@
 # Mock Bypass Evidence for protractor
+[![Build Status]]([Status URL])
 
 ## What's this?
 The evidence that protractor can't mock http backend
@@ -19,4 +20,7 @@ angular.module("test", ["ngRoute", "test.resource"]).config([
 2. Create route that path is "/"
 3. Create protractor spec file.
 
-For details, please check ["Source Code"](src) and ["Test"](test).
+For details, please check [Source Code](src) and [Test](test).
+
+[Build Status]: https://travis-ci.org/hiroaki-yamamoto/prtr-mock-bypass.svg?branch=master
+[Status URL]: https://travis-ci.org/hiroaki-yamamoto/prtr-mock-bypass
