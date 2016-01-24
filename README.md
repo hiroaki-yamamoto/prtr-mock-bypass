@@ -1,5 +1,5 @@
 # Mock Bypass Evidence for protractor
-[![Build Status]]([Status URL])
+[![Build Status]][Status URL]
 
 ## What's this?
 The evidence that protractor can't mock http backend
