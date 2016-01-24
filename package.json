@@ -7,7 +7,8 @@
     "bowerInstall": "./node_modules/bower/bin/bower install",
     "bowerUpdate": "./node_modules/bower/bin/bower update",
     "webdriverUpdate": "./node_modules/protractor/bin/webdriver-manager update",
-    "test": "gulp test.chrome && gulp test.firefox"
+    "test": "gulp test.firefox",
+    "test-chrome": "gulp test.chrome"
   },
   "repository": {
     "type": "git",

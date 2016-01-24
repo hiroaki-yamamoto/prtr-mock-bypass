@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 5.0
+compiler: clang-3.6
+cache:
+  directories:
+    - "node_modules"
+    - "src/third_party"
+addons:
+  firefox: "latest"
+env:
+  matrix:
+    - "DISPLAY=:99.0 CXX=clang-3.6"
+
+before_script:
+  - "sh -e /etc/init.d/xvfb start"
